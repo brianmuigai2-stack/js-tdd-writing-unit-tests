@@ -4,4 +4,4 @@ export function pointsForWord(word) {
       points += /[aeiou]/i.test(char) ? 1 : 2;
     }
     return points;
-  }
+}
